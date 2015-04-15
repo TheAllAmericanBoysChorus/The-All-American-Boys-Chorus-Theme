@@ -1,6 +1,50 @@
 /*
-Theme Name: The All American Boys Chorus V.2
-Version: 2.0
+Theme Name: The All American Boys Chorus Theme
+Theme URI: http://www.taabc.org
 Author: Garrett Sanderson
+Author URI: www.gsandersongraphics.com
+Description: WordPress Theme for The All American Boys Chorus
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+* {
+  font-family: "Crimson Text", serif;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased; }
+
+.top-header-element img {
+  width: 100%;
+  height: 10%; }
+
+.logo {
+  float: left;
+  margin: 5px; }
+
+.social-media-icons {
+  float: right;
+  margin-top: 4rem; }
+  .social-media-icons ul {
+    list-style: none; }
+    .social-media-icons ul li {
+      display: inline-block;
+      padding-left: 1rem; }
+
+
+
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto; }
