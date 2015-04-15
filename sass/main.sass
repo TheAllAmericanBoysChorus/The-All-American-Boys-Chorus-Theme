@@ -1,0 +1,23 @@
+/**** Imports ****/
+
+@import 'variables.sass'
+@import 'header.sass'
+
+
+* 
+	font-family: 'Crimson Text', serif
+	-webkit-font-smoothing: antialiased
+	font-smoothing: antialiased
+
+.clearfix:after
+	content: " " /* Older browser do not support empty content */
+	visibility: hidden
+	display: block
+	height: 0
+	clear: both
+
+.container 
+	max-width: 1200px
+	width: 90%
+	margin: 0 auto
+
